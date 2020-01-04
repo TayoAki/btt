@@ -40,9 +40,13 @@
   font-weight: 900;
 }
 
-@media (min-width: 300px) {
-  cd-headline clip {
-    font-size: 20px;
+.cd-headline.clip {
+  font-size: 50px;
+}
+
+@media (max-width: 400px) {
+  .cd-words-wrapper {
+    font-size: 40px;
   }
 }
 
